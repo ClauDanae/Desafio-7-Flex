@@ -1,0 +1,128 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+}
+
+.chat {
+    background-color: white;
+    flex-direction: column;
+    border-right: 1.5px solid rgb(195, 191, 191);
+    overflow-y: auto;
+    flex: 0 0 25%;
+}
+
+.main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(241, 239, 239);
+}
+
+.main img {
+    height: 20em;
+}
+
+.main p {
+    width: 30rem;
+    text-align: center;
+}
+
+.profile {
+    display: flex;
+    border-color: #eaeaea;
+    border-width: 0.1rem;
+    border-style: solid;
+
+}
+
+.photo img {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 2rem;
+}
+
+.profile .status {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 50%;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.profile>div {
+    align-items: center;
+}
+
+.options {
+    display: flex;
+    flex: 0 0 20%;
+    justify-content: space-evenly;
+}
+
+.status * {
+    margin: 0;
+}
+
+.photo {
+    display: flex;
+    flex: 0 0 30%;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    justify-content: center;
+}
+
+.new-chat {
+    display: flex;
+    justify-content: center;
+    margin: 24px;
+}
+
+button {
+    background-color: #A491D2;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.contact {
+    display: flex;
+    padding: 0.5rem;
+    border-color: #eaeaea;
+    border-width: 0.05rem;
+    border-style: solid;
+}
+
+.contact .photo {
+    flex: 0 0 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo img {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 2rem;
+}
+
+.contact .details {
+    display: flex;
+    flex: 0 0 60%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.details * {
+    margin: 0;
+}
